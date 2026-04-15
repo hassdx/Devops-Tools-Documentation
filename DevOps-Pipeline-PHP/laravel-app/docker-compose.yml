@@ -17,6 +17,7 @@ services:
       context: .
       dockerfile: ./Dockerfile
     image: 'hassdx/laravel-app'
+    container_name: php-apache-environment
     volumes:
       - .:/var/www/html/
     ports:
