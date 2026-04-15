@@ -1,5 +1,5 @@
 # Pull php-apache image 
-FROM ROM php:8.2-apache
+FROM php:8.2-apache
 
 # use root user
 USER root 
