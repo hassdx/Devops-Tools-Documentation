@@ -19,7 +19,7 @@ services:
       dockerfile: ./Dockerfile
     image: 'hassdx/laravel-app'
     volumes:
-      - . /var/www/html/
+      - .:/var/www/html/
     ports:
       - "5000:80"
 
